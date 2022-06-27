@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		BD95126F286A019B00864D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95126E286A019B00864D46 /* AppDelegate.swift */; };
 		BD951271286A019B00864D46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD951270286A019B00864D46 /* SceneDelegate.swift */; };
-		BD951273286A019B00864D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD951272286A019B00864D46 /* ViewController.swift */; };
 		BD951276286A019B00864D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD951274286A019B00864D46 /* Main.storyboard */; };
 		BD951279286A019B00864D46 /* to_do_list.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD951277286A019B00864D46 /* to_do_list.xcdatamodeld */; };
 		BD95127B286A019D00864D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD95127A286A019D00864D46 /* Assets.xcassets */; };
 		BD95127E286A019D00864D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD95127C286A019D00864D46 /* LaunchScreen.storyboard */; };
+		BD951286286A047600864D46 /* to_do_list_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD951285286A047600864D46 /* to_do_list_TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD95126B286A019B00864D46 /* to do list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "to do list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD95126E286A019B00864D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD951270286A019B00864D46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD951272286A019B00864D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD951275286A019B00864D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD951278286A019B00864D46 /* to_do_list.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = to_do_list.xcdatamodel; sourceTree = "<group>"; };
 		BD95127A286A019D00864D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD95127D286A019D00864D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD95127F286A019D00864D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD951285286A047600864D46 /* to_do_list_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = to_do_list_TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				BD95126E286A019B00864D46 /* AppDelegate.swift */,
 				BD951270286A019B00864D46 /* SceneDelegate.swift */,
-				BD951272286A019B00864D46 /* ViewController.swift */,
+				BD951285286A047600864D46 /* to_do_list_TableViewController.swift */,
 				BD951274286A019B00864D46 /* Main.storyboard */,
 				BD95127A286A019D00864D46 /* Assets.xcassets */,
 				BD95127C286A019D00864D46 /* LaunchScreen.storyboard */,
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD951273286A019B00864D46 /* ViewController.swift in Sources */,
 				BD95126F286A019B00864D46 /* AppDelegate.swift in Sources */,
+				BD951286286A047600864D46 /* to_do_list_TableViewController.swift in Sources */,
 				BD951271286A019B00864D46 /* SceneDelegate.swift in Sources */,
 				BD951279286A019B00864D46 /* to_do_list.xcdatamodeld in Sources */,
 			);
