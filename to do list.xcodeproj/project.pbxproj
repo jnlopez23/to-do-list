@@ -14,6 +14,7 @@
 		BD95127B286A019D00864D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD95127A286A019D00864D46 /* Assets.xcassets */; };
 		BD95127E286A019D00864D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD95127C286A019D00864D46 /* LaunchScreen.storyboard */; };
 		BD951286286A047600864D46 /* to_do_list_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD951285286A047600864D46 /* to_do_list_TableViewController.swift */; };
+		BD951288286A52F400864D46 /* to do.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD951287286A52F400864D46 /* to do.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BD95127D286A019D00864D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD95127F286A019D00864D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD951285286A047600864D46 /* to_do_list_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = to_do_list_TableViewController.swift; sourceTree = "<group>"; };
+		BD951287286A52F400864D46 /* to do.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "to do.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BD951270286A019B00864D46 /* SceneDelegate.swift */,
 				BD951285286A047600864D46 /* to_do_list_TableViewController.swift */,
 				BD951274286A019B00864D46 /* Main.storyboard */,
+				BD951287286A52F400864D46 /* to do.swift */,
 				BD95127A286A019D00864D46 /* Assets.xcassets */,
 				BD95127C286A019D00864D46 /* LaunchScreen.storyboard */,
 				BD95127F286A019D00864D46 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD951288286A52F400864D46 /* to do.swift in Sources */,
 				BD95126F286A019B00864D46 /* AppDelegate.swift in Sources */,
 				BD951286286A047600864D46 /* to_do_list_TableViewController.swift in Sources */,
 				BD951271286A019B00864D46 /* SceneDelegate.swift in Sources */,
