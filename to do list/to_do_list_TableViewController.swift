@@ -59,6 +59,14 @@ class to_do_list_TableViewController: UITableViewController {
           return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+      // this gives us a single ToDo
+      let toDo = to_dos[indexPath.row]
+
+      performSegue(withIdentifier: "moveToComplete", sender: toDo)
+    }
+    
     /*
         // Override to support conditional editing of the table view.
         override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -98,10 +106,18 @@ class to_do_list_TableViewController: UITableViewController {
         // MARK: - Navigation
 
         // In a storyboard-based application, you will often want to do a little preparation before navigation
-        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            if let addVC = segue.destination as? add_to_do_ViewController {
-                addVC.previousVC = self
-            }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+      if let addVC = segue.destination as? add_to_do_ViewController {
+        addVC.previousVC = self
+      }
+
+      if let completeVC = segue.destination as? CompleteToDoViewController {
+        if let toDo = sender as? To_Do {
+          completeVC.selectedToDo = toDo
+          completeVC.previousVC = self
+        }
+      }
+    }
             // Get the new view controller using segue.destination.
             // Pass the selected object to the new view controller.
         }
@@ -112,4 +128,4 @@ class to_do_list_TableViewController: UITableViewController {
 
 
 
-}
+

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD038AD8286B8119001144DB /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD038AD7286B8119001144DB /* CompleteToDoViewController.swift */; };
 		BD77456F286B5A0600C081BC /* add_to-do_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77456E286B5A0600C081BC /* add_to-do_ViewController.swift */; };
 		BD95126F286A019B00864D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95126E286A019B00864D46 /* AppDelegate.swift */; };
 		BD951271286A019B00864D46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD951270286A019B00864D46 /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD038AD7286B8119001144DB /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		BD77456E286B5A0600C081BC /* add_to-do_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "add_to-do_ViewController.swift"; sourceTree = "<group>"; };
 		BD95126B286A019B00864D46 /* to do list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "to do list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD95126E286A019B00864D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		BD951262286A019B00864D46 = {
 			isa = PBXGroup;
 			children = (
+				BD038AD7286B8119001144DB /* CompleteToDoViewController.swift */,
 				BD77456E286B5A0600C081BC /* add_to-do_ViewController.swift */,
 				BD95126D286A019B00864D46 /* to do list */,
 				BD95126C286A019B00864D46 /* Products */,
@@ -150,6 +153,7 @@
 				BD77456F286B5A0600C081BC /* add_to-do_ViewController.swift in Sources */,
 				BD951288286A52F400864D46 /* to do.swift in Sources */,
 				BD95126F286A019B00864D46 /* AppDelegate.swift in Sources */,
+				BD038AD8286B8119001144DB /* CompleteToDoViewController.swift in Sources */,
 				BD951286286A047600864D46 /* to_do_list_TableViewController.swift in Sources */,
 				BD951271286A019B00864D46 /* SceneDelegate.swift in Sources */,
 				BD951279286A019B00864D46 /* to_do_list.xcdatamodeld in Sources */,
